@@ -85,7 +85,7 @@ while True:
         'listar': lambda: listar(tarefas),
         'desfazer': lambda: desfazer(tarefas, tarefas_desfeitas),
         'refazer': lambda: refazer(tarefas, tarefas_desfeitas),
-        'clear': lambda: clear_console(),
+        'clear': clear_console,
         'adicionar': lambda: adicionar(tarefa, tarefas),
     }
     comando = comandos.get(tarefa) if comandos.get(tarefa) is not None else \
