@@ -1,24 +1,27 @@
-# 📝 Gerenciador de Tarefas (com Desfazer e Refazer)
+# ✅ Gerenciador de Tarefas - Python
 
-Este é um simples gerenciador de tarefas feito em Python, que permite:
+Este é um simples gerenciador de tarefas feito em Python, com suporte às operações de:
 
-- ✅ Adicionar tarefas
-- 🔄 Desfazer tarefas
-- 🔁 Refazer tarefas
 - 📜 Listar tarefas
+- ➕ Adicionar tarefas
+- 🔙 Desfazer a última ação
+- 🔁 Refazer uma ação desfeita
+- 💾 Salvar as tarefas em um arquivo `.json`
+- 🧹 Limpar o terminal (comando `clear`)
 - 🚪 Sair do programa
+
+Os dados das tarefas são salvos automaticamente em um arquivo JSON local, permitindo que você feche o programa e retorne depois sem perder suas informações.
+
+---
 
 ## 🚀 Funcionalidades
 
-- **Adicionar tarefa:** qualquer texto digitado que não seja um comando é adicionado como uma nova tarefa.
-- **Listar:** exibe todas as tarefas atuais.
-- **Desfazer:** remove a última tarefa adicionada e permite desfazer múltiplas vezes.
-- **Refazer:** refaz uma tarefa que foi desfeita.
-- **Sair:** encerra o programa.
+- ✅ Adicionar uma tarefa simplesmente digitando seu nome.
+- 📜 Listar todas as tarefas atuais.
+- 🔄 Desfazer a última tarefa adicionada.
+- 🔁 Refazer uma tarefa que foi desfeita.
+- 💾 Salvamento automático em `aula56.json`.
+- 🧹 Comando `clear` limpa o terminal (funciona tanto em Windows quanto em Linux/Mac).
+- 🚪 Comando `sair` encerra o programa.
 
-## 💻 Como Executar
-
-1. Clone este repositório ou copie o código:
-
-```bash
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
+---
